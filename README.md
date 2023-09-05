@@ -13,5 +13,5 @@
 		</body>
 	</html>
 
-2. Download the datasets from this [link](https://drive.google.com/file/d/11xcGidVmFfW3XgGTLpndvpz-yGes0a3q/view?usp=sharing) 
+2. Download the datasets from this [link](https://drive.google.com/file/d/11xcGidVmFfW3XgGTLpndvpz-yGes0a3q/view?usp=sharing) and keep in the *Dataset* directory.
 	
