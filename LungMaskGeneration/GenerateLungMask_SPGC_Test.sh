@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=$1
+python3 LungMaskGeneration/GenerateLungMask_SPGC_Test.py $2
