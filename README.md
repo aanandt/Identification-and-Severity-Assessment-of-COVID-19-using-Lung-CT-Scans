@@ -16,7 +16,36 @@
 2. Download the datasets from this [link](https://drive.google.com/file/d/11xcGidVmFfW3XgGTLpndvpz-yGes0a3q/view?usp=sharing) and keep in the *Dataset* directory.
 	
 3. To reproduce the results, the lung masks need to generate and the required masks are given in this [link](https://drive.google.com/drive/folders/1sbIQIkkSnsO2cfVlUwxwYaR61PPbc2IM?usp=sharing). Download and keep the data in the *TempDir* folder.
+	- To generate lung masks for each dataset, run the following code:   
+		<html>
+		<body>
+			<p>bash runLungMask.sh</p>
+		</body>
+		</html>
+		
 
 4. The preprocessed images for the CT scan classification is given in this [link](https://drive.google.com/drive/folders/1sbIQIkkSnsO2cfVlUwxwYaR61PPbc2IM?usp=sharing). Download the data and keep in the *Preprocessed_Datasets* folder.
 
 5. The trained model weights be found [here](https://drive.google.com/drive/folders/1xtHvsSU-qb5X8GnRxE6GQm-VEgHdbMD0?usp=sharing).
+
+---
+
+## Run the reporsitory
+
+1. For infection segmentation, run the following codes:
+	<html>
+		<body>
+			<p>	- run InfectionMask48Slices.m (results are shown in TABLE 2)
+				- run InfectionMask638Slices.m (results are shown in TABLE 3)
+				- InfectionMaskMosmed.m (results are shown in TABLE 4)</p>
+		</body>
+	</html>
+	
+2. For classification task, run the following codes:
+	- run ClassificationSPGC.m (results are shown in TABLE 5)
+	- run ClassificationMosmed.m (results are shown in TABLE 6)
+	- run ClassificationLDCT.m (results are shown in TABLE 6)
+	- run ClassificationLDCT_PCR.m (results are shown in TABLE 6)
+3. Baseline model can be found [here](https://github.com/shubhamchaudhary2015/ct_covid19_cap_cnn).
+4. For the chest CT severity score (CTSS), run the following code:
+	- run 
