@@ -7,4 +7,7 @@ model to extract discriminative features. Subsequently, a shallow feed-forward n
 ## How to run the repository
 
 1. Install the neccessary packages required to run the code. <br />
-	pip install -r requirements.txt
+	<p align="center">
+		pip install -r requirements.txt
+	</p>
+	
