@@ -33,14 +33,9 @@
 ## Run the reporsitory
 
 1. For infection segmentation, run the following codes:
-	<html>
-		<body>
-			<p>	- run InfectionMask48Slices.m (results are shown in TABLE 2)
-				- run InfectionMask638Slices.m (results are shown in TABLE 3)
-				- InfectionMaskMosmed.m (results are shown in TABLE 4)</p>
-		</body>
-	</html>
-	
+	- run InfectionMask48Slices.m (results are shown in TABLE 2)
+	- run InfectionMask638Slices.m (results are shown in TABLE 3)
+	- InfectionMaskMosmed.m (results are shown in TABLE 4)
 2. For classification task, run the following codes:
 	- run ClassificationSPGC.m (results are shown in TABLE 5)
 	- run ClassificationMosmed.m (results are shown in TABLE 6)
