@@ -43,4 +43,4 @@
 	- run ClassificationLDCT_PCR.m (results are shown in TABLE 6)
 3. Baseline model can be found [here](https://github.com/shubhamchaudhary2015/ct_covid19_cap_cnn).
 4. For the chest CT severity score (CTSS), run the following code:
-	- run 
+	- run FindCTSeverityscore.m (results are shown in FIGURE 8)
