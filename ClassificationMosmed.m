@@ -24,7 +24,7 @@ end
 %% Testing the preprocessed dataset with the trained weights %%%
 if stage <= 2
 	addpath('Testing/');
-	data_path = 'Preprocessed_Datasets/MOSMED';%'/cbr/anand/ResearchWork/Covid_2021/JW/My_Model/Mehta/Preprocessed_Data_Mosmed';%
+	data_path = 'Preprocessed_Datasets/MOSMED';
 	model_path = '../../../JW/DriveUpload/Classification/ModelWeights/AblationStudy/GMM+MO+B/EfficientNet-B5/saved-model-05-0.27.hdf5';
 	feature_extractor = 'EfficientNetB5';
 	GT_label_file = 'Dataset/MOSMED/Results_Mosmed.csv';
