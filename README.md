@@ -15,3 +15,6 @@
 
 2. Download the datasets from this [link](https://drive.google.com/file/d/11xcGidVmFfW3XgGTLpndvpz-yGes0a3q/view?usp=sharing) and keep in the *Dataset* directory.
 	
+3. To reproduce the results, the lung masks need to generate and the required masks are given in this [link](https://drive.google.com/drive/folders/1sbIQIkkSnsO2cfVlUwxwYaR61PPbc2IM?usp=sharing). Download and keep the data in the *TempDir* folder.
+
+4. The preprocessed images for the CT scan classification is given in this [link](https://drive.google.com/drive/folders/1sbIQIkkSnsO2cfVlUwxwYaR61PPbc2IM?usp=sharing). Download the data and keep in the *Preprocessed_Datasets* folder.
